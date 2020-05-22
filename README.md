@@ -39,7 +39,7 @@ Note: Make sure, meson executable is available in PATH.
 | Generate pkg-config file       | [library](library)             | works                  |
 | Install library, headers, etc. | [library](library)             | works                  |
 | Generate coverage report       | [library](library)             | works                  |
-| Specify proprocessor defines   | [library](library)             | works                  |
+| Specify preprocessor defines   | [library](library)             | works                  |
 | Generate source package        | _not shown_                    | restricted (see below) |
 | Generate debian package        | _not shown_                    | not found (see below)  |
 
