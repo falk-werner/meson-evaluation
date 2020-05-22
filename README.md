@@ -21,7 +21,6 @@ Note: Make sure, meson executable is available in PATH.
 ## Build
 
     cd <project>
-    mkdir build
     meson build
     cd build
     ninja

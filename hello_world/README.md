@@ -4,7 +4,6 @@ To get started with meson, a simple Hello-World application is created.
 
 ## Build and Run
 
-    mkdir build
     meson build
     cd build
     ninja

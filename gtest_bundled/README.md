@@ -4,7 +4,6 @@ This example shows how to deal with external dependencies.
 
 ## Build and Run
 
-    mkdir build
     meson build
     cd build
     meson test

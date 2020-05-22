@@ -8,7 +8,6 @@ Make sure that Google Test is installed on the system. Version 1.10.0 or higher 
 
 ## Build and Run
 
-    mkdir build
     meson build
     cd build
     meson test
