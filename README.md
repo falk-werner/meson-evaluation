@@ -7,6 +7,7 @@ Play around with Meson build system.
 *   **[hello_world](hello_world):** Simple application
 *   **[gtest](gtest):** Execute Unit Tests using Google Test
 *   **[gtest_bundled](gtest_bundled):** Use Google Test as external dependency
+*   **[library](library):** Create a library
 
 ## Preparations
 
