@@ -1,2 +1,29 @@
-# meson-evaluation
-Play around with Meson build system
+# Meson Evaluation
+
+Play around with Meson build system.
+
+## Use Cases
+
+*   **[hello_world](hello_world):** Simple application
+
+## Preparations
+
+Install Meson and Ninja.
+
+    sudo apt update
+    sudo apt install python3 python3-pip python3-setuptools python3-wheel ninja-build
+    pip3 install --user meson
+
+Note: Make sure, meson executable is available in PATH.
+
+## Build
+
+    cd <project>
+    mkdir build
+    meson build
+    cd build
+    ninja
+
+## Further Information
+
+*    [https://mesonbuild.com/](https://mesonbuild.com/): Meson project website
