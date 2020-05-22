@@ -2,7 +2,7 @@ project('lib_with_gtest', 'c', 'cpp')
 
 includes = include_directories('include')
 
-gtest = dependency('gtest_main', version: '>=1.10.0')
+gtest_dep = dependency('gtest_main', version: '>=1.10.0')
 
 libfancy = library('fancy',
     'src/fancy.c',
@@ -12,6 +12,6 @@ alltests = executable('alltests',
     'test/test_fancy.cc',
     include_directories: includes,
     link_with: libfancy,
-    dependencies: [gtest])
+    dependencies: [gtest_dep])
 
 test('alltests', alltests)
