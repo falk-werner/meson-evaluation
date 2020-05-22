@@ -28,26 +28,26 @@ Note: Make sure, meson executable is available in PATH.
 
 ## Investigated Use Cases
 
-| Use Case                       | Shown in Example                | Result                 |
-| ------------------------------ | ------------------------------- | ---------------------- |
-| Create executable              | [hello_world](hello_world)      | works                  |
-| Use pre-installed library      | [gtest](gtest)                  | works                  |
-| Bundle external library        | [getest_bundled](gtest_bundled) | works                  |
-| Execute Unit Tests             | [gtest](gtest)                  | works                  |
-| Create static library          | [library](library)              | works                  |
-| Create shared library          | [library](library)              | works                  |
-| Generate pkg-config file       | [library](library)              | works                  |
-| Install library, headers, etc. | [library](library)              | works                  |
-| Generate coverage report       | [library](library)              | works                  |
-| Specify proprocessor defines   | [library](library)              | works                  |
-| Generate source package        | _not shown_                     | restricted (see below) |
-| Generate debian package        | _not shown_                     | not found (see below)  |
+| Use Case                       | Shown in Example               | Result                 |
+| ------------------------------ | ------------------------------ | ---------------------- |
+| Create executable              | [hello_world](hello_world)     | works                  |
+| Use pre-installed library      | [gtest](gtest)                 | works                  |
+| Bundle external library        | [gtest_bundled](gtest_bundled) | works                  |
+| Execute Unit Tests             | [gtest](gtest)                 | works                  |
+| Create static library          | [library](library)             | works                  |
+| Create shared library          | [library](library)             | works                  |
+| Generate pkg-config file       | [library](library)             | works                  |
+| Install library, headers, etc. | [library](library)             | works                  |
+| Generate coverage report       | [library](library)             | works                  |
+| Specify proprocessor defines   | [library](library)             | works                  |
+| Generate source package        | _not shown_                    | restricted (see below) |
+| Generate debian package        | _not shown_                    | not found (see below)  |
 
 ### Generate source package
 
 CMake allows to create source packages via CPack.
 
-Meson comes with a similar feature, described within the meson manual: (creating releases))[https://mesonbuild.com/Creating-releases.html]. But this feature is limited to `git` and `mercurial` projects and forces a specific project
+Meson comes with a similar feature, described within the meson manual: [creating release](https://mesonbuild.com/Creating-releases.html). But this feature is limited to `git` and `mercurial` projects and forces a specific project
 layout (at least for `git` projects).
 
 ### Generate debian package
