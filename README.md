@@ -5,6 +5,7 @@ Play around with Meson build system.
 ## Use Cases
 
 *   **[hello_world](hello_world):** Simple application
+*   **[gtest](gtest):** Execute Unit Tests using Google Test
 
 ## Preparations
 
