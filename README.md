@@ -34,6 +34,7 @@ Note: Make sure, meson executable is available in PATH.
 | Use pre-installed library      | [gtest](gtest)                 | works                  |
 | Bundle external library        | [gtest_bundled](gtest_bundled) | works                  |
 | Execute Unit Tests             | [gtest](gtest)                 | works                  |
+| Run Unit Tests with Valgrind   | [gtest](gtest)                 | works                  |
 | Create static library          | [library](library)             | works                  |
 | Create shared library          | [library](library)             | works                  |
 | Generate pkg-config file       | [library](library)             | works                  |
