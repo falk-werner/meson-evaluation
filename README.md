@@ -8,6 +8,7 @@ Play around with Meson build system.
 *   **[gtest](gtest):** Execute Unit Tests using Google Test
 *   **[gtest_bundled](gtest_bundled):** Use Google Test as external dependency
 *   **[library](library):** Create a library
+*   **[cmake_sub](cmake_sub):** Use an existing CMake project as subproject
 
 ## Preparations
 
@@ -41,6 +42,7 @@ Note: Make sure, meson executable is available in PATH.
 | Install library, headers, etc. | [library](library)             | works                  |
 | Generate coverage report       | [library](library)             | works                  |
 | Specify preprocessor defines   | [library](library)             | works                  |
+| Use external cmake library     | [cmake_sub](cmake_sub)         | works                  |
 | Generate source package        | _not shown_                    | restricted (see below) |
 | Generate debian package        | _not shown_                    | not found (see below)  |
 
